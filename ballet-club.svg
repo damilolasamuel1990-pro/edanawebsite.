@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="800" height="550" role="img" aria-label="Ballet dance club illustration">
+  <defs>
+    <linearGradient id="balletBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6b7d8"/>
+      <stop offset="0.55" stop-color="#c2338a"/>
+      <stop offset="1" stop-color="#7c2d72"/>
+    </linearGradient>
+    <linearGradient id="balletTutu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ffd9ec"/>
+    </linearGradient>
+    <radialGradient id="balletGlow" cx="50%" cy="38%" r="60%">
+      <stop offset="0" stop-color="rgba(255,255,255,0.35)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="550" fill="url(#balletBg)"/>
+  <rect width="800" height="550" fill="url(#balletGlow)"/>
+
+  <!-- sparkles -->
+  <g fill="#ffffff" opacity="0.85">
+    <path d="M120 90 l8 20 20 8 -20 8 -8 20 -8-20 -20-8 20-8 z"/>
+    <path d="M660 120 l6 15 15 6 -15 6 -6 15 -6-15 -15-6 15-6 z"/>
+    <path d="M700 330 l5 12 12 5 -12 5 -5 12 -5-12 -12-5 12-5 z"/>
+    <circle cx="150" cy="300" r="4"/>
+    <circle cx="620" cy="420" r="5"/>
+    <circle cx="90" cy="430" r="4"/>
+  </g>
+
+  <!-- ballerina silhouette -->
+  <g transform="translate(400 300)" fill="#3a0f33">
+    <!-- head -->
+    <circle cx="18" cy="-150" r="26"/>
+    <!-- bun -->
+    <circle cx="42" cy="-162" r="11"/>
+    <!-- torso leaning -->
+    <path d="M18 -126
+             C 8 -96, 2 -66, -2 -40
+             C 18 -46, 40 -44, 52 -34
+             C 44 -64, 40 -96, 40 -124
+             C 34 -130, 24 -130, 18 -126 Z"/>
+    <!-- arms raised in arc -->
+    <path d="M30 -118 C 70 -140, 110 -150, 140 -128 C 112 -150, 74 -132, 40 -112 Z"/>
+    <path d="M10 -116 C -34 -138, -78 -140, -104 -112 C -74 -132, -34 -118, 4 -108 Z"/>
+    <!-- supporting leg (en pointe) -->
+    <path d="M6 -40 C 2 6, -4 60, -12 118 C -4 120, 4 120, 10 118 C 10 62, 16 8, 24 -34 Z"/>
+    <!-- extended leg -->
+    <path d="M40 -40 C 70 -20, 104 2, 150 10 C 150 20, 148 26, 142 30 C 96 20, 58 2, 30 -22 Z"/>
+    <!-- pointe foot -->
+    <path d="M-12 118 l-10 18 24 0 6 -16 z"/>
+  </g>
+
+  <!-- tutu -->
+  <path transform="translate(400 300)"
+        d="M-2 -40 C -40 -30, -70 -8, -84 16 C -40 2, 60 2, 112 20 C 92 -8, 44 -34, 52 -34 Z"
+        fill="url(#balletTutu)" opacity="0.95"/>
+
+  <!-- floor line -->
+  <rect x="0" y="470" width="800" height="80" fill="rgba(0,0,0,0.12)"/>
+</svg>
